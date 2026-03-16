@@ -19,13 +19,10 @@
 ```bash
 git clone https://github.com/你的用户名/feishu-girlfriend-bot.git
 cd feishu-girlfriend-bot
-2. 安装依赖
-bashCopyCopied!
+###2. 安装依赖
 pip install -r requirements.txt
-3. 配置环境变量
+###3. 配置环境变量
 Windows (PowerShell):
-
-powershellCopyCopied!
 $env:FEISHU_APP_ID="cli_xxxxxxxxxxxxx"
 $env:FEISHU_APP_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 $env:KIMI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
